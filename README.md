@@ -13,7 +13,17 @@ con los scripts locales o notebooks; el sitio ejecuta los modelos ya entrenados.
 Los valores mostrados en tarjetas son resultados registrados; el botón Evaluar
 recalcula las métricas. No se usa una API de predicciones ni se envían tus entradas.
 
-## Instalación local (Python 3.12 recomendado)
+## Código descomprimido en GitHub
+Los scripts, notebooks, datasets y pesos están también como archivos individuales
+en la raíz del repositorio. Tras clonar o descargar el repositorio:
+```
+python -m pip install -r requirements.txt
+python entrenar.py todos
+python verificar.py
+```
+Los siguientes pasos corresponden a la estructura del ZIP entregable.
+
+## Instalación desde el ZIP (Python 3.12 recomendado)
 Desde esta carpeta descomprimida:
 ```
 python -m venv .venv

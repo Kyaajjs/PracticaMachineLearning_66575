@@ -1,0 +1,53 @@
+{
+  "r2": 0.9980494534695058,
+  "mae": 0.33783567172941464,
+  "rmse": 0.45089928397562384,
+  "baseline_mae": 9.272103050044418,
+  "kind": "regresion",
+  "split": {
+    "train": 460,
+    "validation": 154,
+    "refit": 614,
+    "test": 154
+  },
+  "trials": [
+    {
+      "hidden": [
+        32,
+        16
+      ],
+      "alpha": 0.01,
+      "validation_mae": 0.342875312481404,
+      "validation_r2": 0.9977306843333014
+    },
+    {
+      "hidden": [
+        64,
+        32
+      ],
+      "alpha": 0.01,
+      "validation_mae": 0.3566721011514934,
+      "validation_r2": 0.9972107022687827
+    },
+    {
+      "hidden": [
+        32
+      ],
+      "alpha": 0.01,
+      "validation_mae": 0.291741071741068,
+      "validation_r2": 0.9982246852075669
+    }
+  ],
+  "selected": {
+    "hidden": [
+      32
+    ],
+    "alpha": 0.01,
+    "validation_mae": 0.291741071741068,
+    "validation_r2": 0.9982246852075669
+  },
+  "seed": 42,
+  "python": "3.12.14",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5"
+}

@@ -1,0 +1,65 @@
+{
+  "accuracy": 0.9444444444444444,
+  "f1_macro": 0.9407407407407407,
+  "balanced_accuracy": 0.9333333333333332,
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      2,
+      8
+    ]
+  ],
+  "baseline_accuracy": 0.3888888888888889,
+  "kind": "clasificacion",
+  "split": {
+    "train": 106,
+    "validation": 36,
+    "refit": 142,
+    "test": 36
+  },
+  "trials": [
+    {
+      "hidden": [
+        16
+      ],
+      "alpha": 0.001,
+      "validation_f1_macro": 0.9740129935032483
+    },
+    {
+      "hidden": [
+        32,
+        16
+      ],
+      "alpha": 0.01,
+      "validation_f1_macro": 0.9740129935032483
+    },
+    {
+      "hidden": [
+        32
+      ],
+      "alpha": 0.1,
+      "validation_f1_macro": 1.0
+    }
+  ],
+  "selected": {
+    "hidden": [
+      32
+    ],
+    "alpha": 0.1,
+    "validation_f1_macro": 1.0
+  },
+  "seed": 42,
+  "python": "3.12.14",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5"
+}
