@@ -1,0 +1,19 @@
+ORIGEN DEL CÓDIGO
+Generado con ChatGPT de OpenAI el 15 de octubre de 2026 para esta práctica.
+La generación, ejecución y revisión fueron asistidas por IA. El alumno debe revisar
+el código, entenderlo y completar los datos de asignatura y docente antes de entregar.
+No se atribuye al alumno la programación manual del código generado.
+
+PROMPT DEL USUARIO UTILIZADO (fragmentos literales)
+"Implementar en  c++, python o java, 1  ejemplo de redes neuronales de tipo pattern recognition (clasificación) para un problema de clasificación real, comercial o industrial. (buscar los datasets en internet) con sus parámetros ajustados y con resultados aceptables."
+"Implementar en c++, python   o java, 1  ejemplo   de redes neuronales de tipo fitting (regresión) para un problema de regresión real, comercial o industrial. (buscar los datasets en internet) con sus parámetros ajustados y con resultados aceptables."
+"Implementar en  c++, python  o java, 1 ejemplo   de redes neuronales de tipo series de tiempo para un problema de clasificación real o industrial. (buscar los datasets en internet) con sus parámetros ajustados y con resultados aceptables."
+"Se permite usar frameworks, generar los códigos con IA generativa (poner su origen y los prompts usados). Los enlaces deben permitir correr dicho programa y contener las instrucciones de su uso."
+"Poner evidencia en el reporte de los códigos desarrollados y capturas de pantalla para cada ejemplo realizado."
+
+DECISIONES DE IMPLEMENTACIÓN DE LA IA
+Python, scikit-learn y NumPy. MLP para Wine y Energy Efficiency. Red recurrente
+Echo State con reservorio fijo y lectura MLP para Wafer. Ajuste de tres candidatos
+sobre validación; refit con desarrollo; prueba reservada. Exportación de pesos JSON
+para ejecutar inferencia Python en navegador con Pyodide. Las instrucciones de
+implementación se derivaron del prompt anterior; no hubo prompts de otro proveedor.
